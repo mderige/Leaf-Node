@@ -2,6 +2,7 @@
 import { ref, computed } from 'vue';
 import { ShieldCheck, Search, ArrowRightLeft, Eye, Sparkles } from 'lucide-vue-next';
 import { PlantSpecimen } from '../types';
+import { plantImages } from '../assets/plantImages';
 
 const props = defineProps<{
   specimens: PlantSpecimen[];
@@ -74,7 +75,7 @@ const filteredSpecimens = computed(() => {
 
         <div class="lg:col-span-5 h-64 lg:h-full min-h-[290px] relative">
           <img
-            src="/src/assets/images/hero_variegated_monstera_1792484724470.jpg"
+            :src="plantImages.heroMonstera"
             alt="Variegated Monstera Albo"
             class="w-full h-full object-cover"
             referrerPolicy="no-referrer"

@@ -1,4 +1,5 @@
 import { PlantSpecimen, TradeMatch, ActiveTradeNegotiation } from '../types';
+import { plantImages } from '../assets/plantImages';
 
 export const CURRENT_USER = {
   id: 'user_elena',
@@ -31,7 +32,7 @@ export const INITIAL_SPECIMENS: PlantSpecimen[] = [
     variegationStability: 'high_marble',
     variegationDescription: '55% pristine white marbled sectoral chimera with clean chlorophyll distribution',
     estimatedValueUsd: 140,
-    imageUrl: '/src/assets/images/hero_variegated_monstera_1792484724470.jpg',
+    imageUrl: plantImages.heroMonstera,
     notes: 'Rooted for 6 weeks in chunky aroid mix (orchid bark, perlite, pumice, tree fern fibre). Active auxiliary bud swelling at upper node.',
     owner: {
       id: 'user_elena',
@@ -77,7 +78,7 @@ export const INITIAL_SPECIMENS: PlantSpecimen[] = [
     variegationStability: 'standard',
     variegationDescription: 'True species form, elongated lanceolate foliage with characteristic reddish petiole glands',
     estimatedValueUsd: 320,
-    imageUrl: '/src/assets/images/specimen_spiritus_sancti_1792484725014.jpg',
+    imageUrl: plantImages.spiritusSancti,
     notes: 'Acquired via seed-grown lineage from verified collector. Mature foliage reaching 14 inches with prominent node spacing.',
     owner: {
       id: 'user_marcus',
@@ -123,7 +124,7 @@ export const INITIAL_SPECIMENS: PlantSpecimen[] = [
     variegationStability: 'standard',
     variegationDescription: 'Velvety deep emerald black blade with prominent crystalline silver-white venation',
     estimatedValueUsd: 155,
-    imageUrl: '/src/assets/images/specimen_anthurium_warocq_1792484725022.jpg',
+    imageUrl: plantImages.anthurium,
     notes: 'Looking for healthy roots with high humidity acclimatization (65%+). Prefer local meetup or verified insulated shipping.',
     owner: {
       id: 'user_elena',
@@ -168,7 +169,7 @@ export const INITIAL_SPECIMENS: PlantSpecimen[] = [
     variegationStability: 'stable',
     variegationDescription: 'Genetically stable speckled constellation variegation with sectoral cream patches',
     estimatedValueUsd: 185,
-    imageUrl: '/src/assets/images/specimen_thai_constellation_1792484725333.jpg',
+    imageUrl: plantImages.thaiConstellation,
     notes: 'Tissue-cultured parent stock from 2021. Established root system in terracotta with moss pole support. Clean leaf margins, no fungal spots.',
     owner: {
       id: 'user_talia',
@@ -214,7 +215,7 @@ export const INITIAL_SPECIMENS: PlantSpecimen[] = [
     variegationStability: 'standard',
     variegationDescription: 'Deep cardboard-thick heart leaves with vivid frosted silver geometric veining',
     estimatedValueUsd: 65,
-    imageUrl: '/src/assets/images/specimen_anthurium_warocq_1792484725022.jpg',
+    imageUrl: plantImages.anthurium,
     notes: 'Freshly repotted into aerated tree fern & pumice. High root density with robust secondary root growth.',
     owner: {
       id: 'user_julian',
@@ -259,7 +260,7 @@ export const INITIAL_SPECIMENS: PlantSpecimen[] = [
     variegationStability: 'standard',
     variegationDescription: 'Velvety copper emergent leaves hardening into deep iridescent dark forest',
     estimatedValueUsd: 85,
-    imageUrl: '/src/assets/images/specimen_spiritus_sancti_1792484725014.jpg',
+    imageUrl: plantImages.spiritusSancti,
     notes: 'Looking for a clean apical cut with minimum 2 aerial nodes, healthy root system in perlite or sphagnum.',
     owner: {
       id: 'user_marcus',
@@ -304,7 +305,7 @@ export const INITIAL_SPECIMENS: PlantSpecimen[] = [
     variegationStability: 'sectoral',
     variegationDescription: 'High contrast half-moon and speckled variegation across all recent leaves',
     estimatedValueUsd: 55,
-    imageUrl: '/src/assets/images/hero_variegated_monstera_1792484724470.jpg',
+    imageUrl: plantImages.heroMonstera,
     notes: 'Fast grower, vigorously rooting in water. Ready for immediate potting into chunky aroid soil or pon.',
     owner: {
       id: 'user_clara',

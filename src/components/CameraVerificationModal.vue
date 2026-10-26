@@ -3,6 +3,7 @@ import { ref, watch, onUnmounted } from 'vue';
 import { Camera, RefreshCw, X, ShieldCheck, AlertTriangle } from 'lucide-vue-next';
 import { PlantSpecimen, DevelopmentalStage, VariegationStability } from '../types';
 import { CURRENT_USER } from '../data/mockData';
+import { plantImages } from '../assets/plantImages';
 
 const props = defineProps<{
   isOpen: boolean;
@@ -22,7 +23,7 @@ const PRESET_SPECIMENS = [
     nodes: 2,
     variegation: 'high_marble' as VariegationStability,
     value: 145,
-    image: '/src/assets/images/hero_variegated_monstera_1792484724470.jpg',
+    image: plantImages.heroMonstera,
   },
   {
     name: 'Philodendron Spiritus Sancti Node',
@@ -32,7 +33,7 @@ const PRESET_SPECIMENS = [
     nodes: 1,
     variegation: 'standard' as VariegationStability,
     value: 290,
-    image: '/src/assets/images/specimen_spiritus_sancti_1792484725014.jpg',
+    image: plantImages.spiritusSancti,
   },
   {
     name: 'Queen Anthurium Dark Form',
@@ -42,7 +43,7 @@ const PRESET_SPECIMENS = [
     nodes: 4,
     variegation: 'standard' as VariegationStability,
     value: 160,
-    image: '/src/assets/images/specimen_anthurium_warocq_1792484725022.jpg',
+    image: plantImages.anthurium,
   },
   {
     name: 'Monstera Thai Constellation',
@@ -52,7 +53,7 @@ const PRESET_SPECIMENS = [
     nodes: 3,
     variegation: 'stable' as VariegationStability,
     value: 180,
-    image: '/src/assets/images/specimen_thai_constellation_1792484725333.jpg',
+    image: plantImages.thaiConstellation,
   },
 ];
 
