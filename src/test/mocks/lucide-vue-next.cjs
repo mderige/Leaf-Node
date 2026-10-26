@@ -6,4 +6,5 @@ module.exports = {
   Search: iconStub,
   ShieldCheck: iconStub,
   Sparkles: iconStub,
+  Sprout: iconStub,
 };
