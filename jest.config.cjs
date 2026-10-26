@@ -5,6 +5,7 @@ module.exports = {
     '^.+\\.vue$': '<rootDir>/src/test/vue-sfc-transformer.cjs',
   },
   moduleNameMapper: {
+    '^\\.\\./data/mockData$': '<rootDir>/src/test/mocks/mock-data.cjs',
     '^lucide-vue-next$': '<rootDir>/src/test/mocks/lucide-vue-next.cjs',
   },
 };
