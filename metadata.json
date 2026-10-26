@@ -1,0 +1,6 @@
+{
+  "name": "Leaf & Node — Plant Trading & Verification",
+  "description": "High-trust peer-to-peer exchange for rare plant cultivars, live camera Proof of Life passports, 1:1 matchmaking, and weather-aware transit logistics.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
